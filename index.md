@@ -4,27 +4,13 @@ title: "G. Seth Neifert — Internal Audit & Risk Analytics"
 description: "Internal audit & risk analytics professional building automation, AI tooling, and real working audit-analytics projects."
 ---
 
-<button id="toggle-dark" style="position:fixed;top:1rem;right:1rem;z-index:1000;">🌙 Toggle Dark Mode</button>
-<style>
-body.dark-mode {
-  background: #181a1b !important;
-  color: #e8e6e3 !important;
-}
-body.dark-mode a { color: #8ab4f8 !important; }
-body.dark-mode h1, body.dark-mode h2, body.dark-mode h3,
-body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 { color: #fff !important; }
-body.dark-mode blockquote {
-  border-left: 4px solid #444;
-  color: #b0b0b0;
-  background: #232526;
-}
-body.dark-mode hr { border-color: #333; }
-</style>
+<button id="toggle-dark" style="position:fixed;top:1rem;right:1rem;z-index:1000;" aria-label="Toggle dark mode" aria-pressed="false">🌙 Toggle Dark Mode</button>
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const btn = document.getElementById('toggle-dark');
     const setMode = (on) => {
       document.body.classList.toggle('dark-mode', on);
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
       localStorage.setItem('darkMode', on ? '1' : '');
     };
     btn.onclick = () => setMode(!document.body.classList.contains('dark-mode'));
@@ -36,7 +22,7 @@ body.dark-mode hr { border-color: #333; }
 
 **Internal Audit & Risk Analytics** — I build the automation and AI tooling most audit teams only talk about.
 
-[GitHub](https://github.com/neifertg) · [LinkedIn](https://www.linkedin.com/in/g-seth-neifert-7668b6b6/) · [Email](mailto:gsneifert@gmail.com) · [Résumé & Experience](#background--résumé)
+[GitHub](https://github.com/neifertg) · [LinkedIn](https://www.linkedin.com/in/g-seth-neifert-7668b6b6/) · [Email](mailto:gsneifert@gmail.com) · [Résumé & Experience](#background-resume)
 
 ---
 
@@ -92,7 +78,7 @@ Enterprise-scale work built at Fannie Mae and HealthEquity — internal tools, n
 
 ---
 
-## Background & Résumé
+## Background & Résumé {: #background-resume}
 
 ### Experience
 

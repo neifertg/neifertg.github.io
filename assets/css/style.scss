@@ -1,0 +1,93 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Neifert brand tokens — palette "Heraldic Ground". Source of truth:
+   Seth_Wiki's _meta/branding/tokens.css — keep these two in sync by hand,
+   this repo doesn't share a build with the wiki. */
+:root {
+  --color-ink: #121716;
+  --color-gold: #B08A46;
+  --color-gold-lift: #C9A257;
+  --color-red: #BB2722;
+  --color-parchment: #EFE1C3;
+  --color-text-on-dark: #EAE2CF;
+  --color-brown: #874D36;
+  --font-ui: 'Arial Nova', Arial, 'Helvetica Neue', sans-serif;
+  --font-display: Cambria, Georgia, 'Times New Roman', serif;
+}
+
+body {
+  background-color: var(--color-parchment);
+  color: var(--color-ink);
+  font-family: var(--font-ui);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-ink);
+  font-family: var(--font-ui);
+}
+
+h1 {
+  font-family: var(--font-display);
+}
+
+a {
+  color: var(--color-red);
+}
+
+a:hover, a:focus {
+  color: var(--color-brown);
+}
+
+blockquote {
+  border-left-color: var(--color-gold);
+  color: var(--color-brown);
+}
+
+hr {
+  background: var(--color-gold);
+  opacity: 0.4;
+}
+
+/* Dark mode, toggled via body.dark-mode class (see index.md's script) —
+   inverts to the ink ground rather than a generic gray dark theme. */
+body.dark-mode {
+  background: var(--color-ink) !important;
+  color: var(--color-text-on-dark) !important;
+}
+body.dark-mode a { color: var(--color-gold-lift) !important; }
+body.dark-mode a:hover, body.dark-mode a:focus { color: var(--color-gold) !important; }
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3,
+body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 { color: #fff !important; }
+body.dark-mode blockquote {
+  border-left-color: var(--color-brown);
+  color: var(--color-text-on-dark);
+  background: #1c201f;
+}
+body.dark-mode hr { background: var(--color-gold-lift); opacity: 0.3; }
+
+#toggle-dark {
+  font-family: var(--font-ui);
+  background: var(--color-parchment);
+  color: var(--color-ink);
+  border: 1px solid var(--color-gold);
+  border-radius: 4px;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+}
+body.dark-mode #toggle-dark {
+  background: var(--color-ink);
+  color: var(--color-text-on-dark);
+  border-color: var(--color-gold-lift);
+}
+
+@media (max-width: 480px) {
+  #toggle-dark {
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.85rem;
+  }
+}

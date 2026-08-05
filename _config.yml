@@ -2,3 +2,6 @@ title: G. Seth Neifert
 theme: jekyll-theme-minimal
 markdown: kramdown
 description: "Internal audit & risk analytics professional — automation, AI tooling, and real working projects."
+url: "https://neifertg.github.io"
+plugins:
+  - jekyll-seo-tag
