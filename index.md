@@ -78,7 +78,9 @@ Enterprise-scale work built at Fannie Mae and HealthEquity — internal tools, n
 
 ---
 
-## Background & Résumé {: #background-resume}
+<a id="background-resume"></a>
+
+## Background & Résumé
 
 ### Experience
 
