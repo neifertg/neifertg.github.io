@@ -61,7 +61,7 @@ Enterprise-scale work built at Fannie Mae and HealthEquity — internal tools, n
 
 ## Currently Building
 
-- **[wilderness-trail](https://github.com/neifertg/wilderness-trail)** *(private repo — happy to walk through it, just ask)* — an active side project in TypeScript.
+- **[wilderness-trail](https://github.com/neifertg/wilderness-trail)** *(private repo — happy to walk through it, just ask)* — an Oregon Trail-style survival simulation paired with Duolingo-style species-identification training, aimed at real-world wilderness-skill transfer: GPS-aware, pulls live weather data, and gamifies plant/animal ID through a mastery ladder and quizzes.
 - New additions to the [risk-analytics-portfolio](https://github.com/neifertg/risk-analytics-portfolio) — this list grows as projects ship.
 
 <a id="other-interests"></a>
@@ -73,7 +73,7 @@ Enterprise-scale work built at Fannie Mae and HealthEquity — internal tools, n
 **[family-meal-planner](https://github.com/neifertg/family-meal-planner)** — a meal-planning application to help organize weekly family meals.
 </div>
 <div class="card" markdown="1">
-**[android-lab](https://github.com/neifertg/android-lab)** — an experimentation lab turning an old Android phone into a remote server, plus feature/audio testing.
+**[android-lab](https://github.com/neifertg/android-lab)** — an experimentation lab turning Android phones into remote servers, plus feature/audio testing.
 </div>
 <div class="card" markdown="1">
 **[economics](https://github.com/neifertg/economics)** — personal economics experiments and analysis.
