@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "G. Seth Neifert — Internal Audit & Risk Analytics"
+title: "Internal Audit & Risk Analytics"
 description: "Internal audit & risk analytics professional building automation, AI tooling, and real working audit-analytics projects."
 ---
 
