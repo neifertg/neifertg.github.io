@@ -12,6 +12,8 @@ I'm a Data Scientist specializing in Risk Analytics on Fannie Mae's Internal Aud
 
 I hold a Certified Internal Auditor (CIA) designation and an MS in Business Analytics, and I work at the intersection most audit teams are still trying to figure out: deep domain knowledge of audit/risk standards *and* the engineering ability to actually build the automation.
 
+I also treat documentation as infrastructure, not an afterthought: schema-validated structure, automated linting and CI, and systematic change tracking, applied to both a personal knowledge wiki and a professional one. Most RAG projects fail on corpus quality, not model choice — this is the layer I build first, and the RAG assistant in Featured Work below is a direct proof point, built on exactly that kind of knowledge base.
+
 <a id="featured-work"></a>
 
 ## Featured Work
