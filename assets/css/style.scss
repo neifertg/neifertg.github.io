@@ -189,6 +189,30 @@ blockquote {
 .timeline-meta { font-size: var(--fs-small); opacity: 0.75; font-style: italic; }
 .timeline-entry ul { margin-bottom: 0; }
 
+/* Collapsed résumé disclosure */
+.resume-details { margin-top: var(--space-2); }
+.resume-details summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--link);
+  padding: var(--space-1) 0;
+  list-style: none;
+}
+.resume-details summary::-webkit-details-marker { display: none; }
+.resume-details summary::before {
+  content: '▸';
+  display: inline-block;
+  margin-right: var(--space-1);
+  transition: transform 0.15s ease;
+}
+.resume-details[open] summary::before { transform: rotate(90deg); }
+.resume-details summary:hover { color: var(--link-hover); }
+.resume-details summary:focus-visible {
+  outline: 2px solid var(--color-gold-lift);
+  outline-offset: 2px;
+}
+.resume-details > h3:first-of-type { margin-top: var(--space-3); }
+
 /* Mobile: sidebar collapses to a top bar */
 @media (max-width: 900px) {
   .layout { flex-direction: column; }

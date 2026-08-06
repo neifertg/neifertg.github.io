@@ -8,7 +8,7 @@ description: "Internal audit & risk analytics professional building automation, 
 
 ## What I Do
 
-I'm a Data Scientist specializing in Risk Analytics on Fannie Mae's Internal Audit Data & Analytics team, where I build the tools that turn manual, sample-based audit work into automated, full-population testing — and I write the AI governance frameworks that make it safe to bring GenAI into audit workflows. Outside of work, I ship real, working risk-analytics projects in public: no mockups, honest write-ups of what broke and how it got fixed.
+I'm a Data Scientist specializing in Risk Analytics on an Internal Audit Data & Analytics team, where I build the tools that turn manual, sample-based audit work into automated, full-population testing — and I write the AI governance frameworks that make it safe to bring GenAI into audit workflows. Outside of work, I ship real, working risk-analytics projects in public: no mockups, honest write-ups of what broke and how it got fixed.
 
 I hold a Certified Internal Auditor (CIA) designation and an MS in Business Analytics, and I work at the intersection most audit teams are still trying to figure out: deep domain knowledge of audit/risk standards *and* the engineering ability to actually build the automation.
 
@@ -84,6 +84,9 @@ Enterprise-scale work built at Fannie Mae and HealthEquity — internal tools, n
 
 ## Background & Résumé
 
+<details class="resume-details" markdown="1">
+<summary>Show full experience, education, certifications &amp; skills</summary>
+
 ### Experience
 
 <div class="timeline" markdown="1">
@@ -146,6 +149,8 @@ Enterprise-scale work built at Fannie Mae and HealthEquity — internal tools, n
 ### Skills
 
 Python · R / Shiny · SQL · NLP · Machine Learning · GenAI / Copilot Agent Development · Tableau · VBA · Azure · AWS · Splunk · ETL Pipeline Design
+
+</details>
 
 <a id="contact"></a>
 
