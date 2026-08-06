@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="{{ '/assets/crest_thumb.png' | relative_url }}">
+{% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="layout">
+    <header class="sidebar">
+      <div class="sidebar-inner">
+        <img class="crest" src="{{ '/assets/crest_thumb.png' | relative_url }}" alt="" width="48" height="48">
+        <h1 class="site-name"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        <p class="tagline">Internal Audit &amp; Risk Analytics — I build the automation and AI tooling most audit teams only talk about.</p>
+        <nav class="site-nav" aria-label="Section navigation">
+          <ul>
+            <li><a href="#what-i-do">What I Do</a></li>
+            <li><a href="#featured-work">Featured Work</a></li>
+            <li><a href="#professional-impact">Professional Impact</a></li>
+            <li><a href="#currently-building">Currently Building</a></li>
+            <li><a href="#other-interests">Other Interests</a></li>
+            <li><a href="#background-resume">Background &amp; Résumé</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button id="toggle-dark" aria-label="Toggle light mode" aria-pressed="false">☀️ Light Mode</button>
+      </div>
+    </header>
+    <main class="content" id="main-content">
+      {{ content }}
+    </main>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var btn = document.getElementById('toggle-dark');
+      var setLight = function (on) {
+        document.body.classList.toggle('light-mode', on);
+        btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+        localStorage.setItem('lightMode', on ? '1' : '');
+      };
+      btn.onclick = function () { setLight(!document.body.classList.contains('light-mode')); };
+      if (localStorage.getItem('lightMode')) setLight(true);
+
+      var links = Array.prototype.slice.call(document.querySelectorAll('.site-nav a[href^="#"]'));
+      var byId = {};
+      var sections = [];
+      links.forEach(function (a) {
+        var id = a.getAttribute('href').slice(1);
+        byId[id] = a;
+        var el = document.getElementById(id);
+        if (el) sections.push(el);
+      });
+      if ('IntersectionObserver' in window && sections.length) {
+        var observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              links.forEach(function (a) { a.classList.remove('active'); });
+              var link = byId[entry.target.id];
+              if (link) link.classList.add('active');
+            }
+          });
+        }, { rootMargin: '-40% 0px -50% 0px', threshold: 0 });
+        sections.forEach(function (s) { observer.observe(s); });
+      }
+    });
+  </script>
+</body>
+</html>
