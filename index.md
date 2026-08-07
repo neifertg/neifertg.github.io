@@ -148,7 +148,7 @@ Enterprise-scale work built at Fannie Mae and HealthEquity — internal tools, n
 
 ### Skills
 
-Python · R / Shiny · SQL · NLP · Machine Learning · GenAI / Copilot Agent Development · Tableau · VBA · Azure · AWS · Splunk · ETL Pipeline Design
+Python · R / Shiny · SQL · NLP · Retrieval-augmented generation (hand-rolled, no framework) · Evals & retrieval guardrails · Embedding-based retrieval debugging · Tableau · VBA · Azure · AWS · Splunk · ETL Pipeline Design
 
 </details>
 
