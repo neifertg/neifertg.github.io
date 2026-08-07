@@ -22,7 +22,7 @@ I also treat documentation as infrastructure, not an afterthought: schema-valida
 
 ![Audit Procedures RAG Assistant answering a question with cited sources and per-session cost tracking](https://raw.githubusercontent.com/neifertg/risk-analytics-portfolio/main/assets/audit-rag-assistant-demo.png)
 
-My flagship public portfolio — six real, working internal-audit and risk-analytics projects, each with real data, real metrics, and honest write-ups of what broke:
+My flagship public portfolio — seven real, working internal-audit and risk-analytics projects, each with real data, real metrics, and honest write-ups of what broke:
 
 <div class="card-grid" markdown="1">
 <div class="card" markdown="1">
@@ -42,6 +42,9 @@ My flagship public portfolio — six real, working internal-audit and risk-analy
 </div>
 <div class="card" markdown="1">
 **[Statistical Audit Sampling Calculator](https://github.com/neifertg/risk-analytics-portfolio/tree/main/sampling-calculator)** — attribute and MUS/PPS sampling verified against 10 real published AICPA reliability-factor table values.
+</div>
+<div class="card" markdown="1">
+**[Presentation Deck Builder](https://github.com/neifertg/risk-analytics-portfolio/tree/main/deck-builder)** — generator for branded, self-contained reveal.js training decks; real 17-slide "Clustering for Audit Analytics" example. [Live demo](https://neifertg.github.io/risk-analytics-portfolio/deck-builder/decks/clustering-for-audit/index.html)
 </div>
 </div>
 
@@ -74,9 +77,6 @@ Enterprise-scale work built at Fannie Mae and HealthEquity — internal tools, n
 </div>
 <div class="card" markdown="1">
 **[android-lab](https://github.com/neifertg/android-lab)** — an experimentation lab turning Android phones into remote servers, plus feature/audio testing.
-</div>
-<div class="card" markdown="1">
-**[economics](https://github.com/neifertg/economics)** — personal economics experiments and analysis.
 </div>
 </div>
 
