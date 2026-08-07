@@ -48,6 +48,8 @@ My flagship public portfolio — seven real, working internal-audit and risk-ana
 
 **[Explore the full portfolio →](https://neifertg.github.io/risk-analytics-portfolio/)**
 
+**Currently building:** [wilderness-trail](https://github.com/neifertg/wilderness-trail) *(private — happy to walk through it, just ask)*, a GPS-aware, live-weather Oregon Trail-style survival sim with Duolingo-style species-ID training.
+
 <a id="professional-impact"></a>
 
 ## Professional Impact
@@ -58,25 +60,7 @@ Enterprise-scale work built at Fannie Mae and HealthEquity — internal tools, n
 - **AI governance framework + custom GitHub Copilot agents** (`VS_Template_Files`) — role boundaries and IIA-aligned guardrails for safely using GenAI in audit work. Cut analytics time **80%**, expanded test coverage **3x**.
 - **GXS Data XRAY** — R Shiny app automating data-quality assessment and field-level analysis across enterprise datasets, with AI-ready context packages for faster project onboarding.
 
-<a id="currently-building"></a>
-
-## Currently Building
-
-- **[wilderness-trail](https://github.com/neifertg/wilderness-trail)** *(private repo — happy to walk through it, just ask)* — an Oregon Trail-style survival simulation paired with Duolingo-style species-identification training, aimed at real-world wilderness-skill transfer: GPS-aware, pulls live weather data, and gamifies plant/animal ID through a mastery ladder and quizzes.
-- New additions to the [risk-analytics-portfolio](https://github.com/neifertg/risk-analytics-portfolio) — this list grows as projects ship.
-
-<a id="other-interests"></a>
-
-## Other Interests & Side Projects
-
-<div class="card-grid" markdown="1">
-<div class="card" markdown="1">
-**[family-meal-planner](https://github.com/neifertg/family-meal-planner)** — a meal-planning application to help organize weekly family meals.
-</div>
-<div class="card" markdown="1">
-**[android-lab](https://github.com/neifertg/android-lab)** — an experimentation lab turning Android phones into remote servers, plus feature/audio testing.
-</div>
-</div>
+Also on GitHub: [family-meal-planner](https://github.com/neifertg/family-meal-planner) (meal planning) · [android-lab](https://github.com/neifertg/android-lab) (Android-as-server experiments).
 
 <a id="background-resume"></a>
 
