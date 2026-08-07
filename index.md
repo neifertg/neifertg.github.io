@@ -8,11 +8,9 @@ description: "Internal audit & risk analytics professional building automation, 
 
 ## What I Do
 
-I'm a Data Scientist specializing in Risk Analytics on an Internal Audit Data & Analytics team, where I build the tools that turn manual, sample-based audit work into automated, full-population testing — and I write the AI governance frameworks that make it safe to bring GenAI into audit workflows. Outside of work, I ship real, working risk-analytics projects in public: no mockups, honest write-ups of what broke and how it got fixed.
+Data Scientist on an Internal Audit Data & Analytics team — I turn manual, sample-based audit work into automated, full-population testing, and write the AI governance frameworks that make GenAI safe to use in audit workflows. CIA-certified, MS in Business Analytics: the rare combination of real audit/risk domain depth and the engineering to build the automation, not just spec it.
 
-I hold a Certified Internal Auditor (CIA) designation and an MS in Business Analytics, and I work at the intersection most audit teams are still trying to figure out: deep domain knowledge of audit/risk standards *and* the engineering ability to actually build the automation.
-
-I also treat documentation as infrastructure, not an afterthought: schema-validated structure, automated linting and CI, and systematic change tracking, applied to both a personal knowledge wiki and a professional one. Most RAG projects fail on corpus quality, not model choice — this is the layer I build first, and the RAG assistant in Featured Work below is a direct proof point, built on exactly that kind of knowledge base.
+Outside of work I ship real, working risk-analytics projects in public — no mockups, honest write-ups of what broke. Most RAG projects fail on corpus quality, not model choice; the RAG assistant in Featured Work below is proof I build that layer first, on documentation treated as infrastructure (schema-validated, linted, CI-checked).
 
 <a id="featured-work"></a>
 
@@ -56,9 +54,9 @@ My flagship public portfolio — seven real, working internal-audit and risk-ana
 
 Enterprise-scale work built at Fannie Mae and HealthEquity — internal tools, not public repos, but the clearest proof of what I build at scale:
 
-- **RADAR** (Risk Analytics Dashboard for Access Review) — an R Shiny platform automating ITGC controls testing across access, change management, and incident management, replacing manual sampling with full-population testing. Estimated **~930 hours/year** saved.
-- **AI governance framework + custom GitHub Copilot agents** (`VS_Template_Files`) — role boundaries, IIA-aligned guardrails, and communication standards for safely using GenAI in audit work. Cut audit analytics time **80%** while expanding test coverage **3x**.
-- **GXS Data XRAY** — an R Shiny application automating data quality assessment, document conversion, and field-level analysis across enterprise datasets, speeding up project onboarding with AI-ready context packages.
+- **RADAR** (Risk Analytics Dashboard for Access Review) — R Shiny platform automating ITGC controls testing across access, change management, and incident management; full-population testing instead of sampling. **~930 hrs/year** saved.
+- **AI governance framework + custom GitHub Copilot agents** (`VS_Template_Files`) — role boundaries and IIA-aligned guardrails for safely using GenAI in audit work. Cut analytics time **80%**, expanded test coverage **3x**.
+- **GXS Data XRAY** — R Shiny app automating data-quality assessment and field-level analysis across enterprise datasets, with AI-ready context packages for faster project onboarding.
 
 <a id="currently-building"></a>
 
