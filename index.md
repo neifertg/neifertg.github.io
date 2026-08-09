@@ -24,7 +24,7 @@ My flagship public portfolio — seven real, working internal-audit and risk-ana
 
 <div class="card-grid" markdown="1">
 <div class="card" markdown="1">
-**[Audit Procedures RAG Assistant](https://github.com/neifertg/risk-analytics-portfolio/tree/main/audit-rag-assistant)** — LLM question-answering grounded in an audit-procedures corpus, with a groundedness guardrail that declines to answer rather than guess. [Live demo](https://84abkcnqvptyedbbssztx8.streamlit.app/)
+**[Audit Procedures RAG Assistant](https://github.com/neifertg/risk-analytics-portfolio/tree/main/audit-rag-assistant)** — LLM question-answering grounded in an audit-procedures corpus, with a groundedness guardrail that declines to answer rather than guess. Now also demos real-organization tailoring: University of California's own public audit records toggled against generic guidance, side by side. [Live demo](https://84abkcnqvptyedbbssztx8.streamlit.app/)
 </div>
 <div class="card" markdown="1">
 **[Benford's Law Analyzer](https://github.com/neifertg/risk-analytics-portfolio/tree/main/benfords-law-analyzer)** — forensic-accounting screening run against ~6,400 real SEC EDGAR filings (chi-square p=0.20).
