@@ -42,7 +42,7 @@ My flagship public portfolio — seven real, working internal-audit and risk-ana
 **[Statistical Audit Sampling Calculator](https://github.com/neifertg/risk-analytics-portfolio/tree/main/sampling-calculator)** — attribute and MUS/PPS sampling verified against 10 real published AICPA reliability-factor table values.
 </div>
 <div class="card" markdown="1">
-**[Presentation Deck Builder](https://github.com/neifertg/risk-analytics-portfolio/tree/main/deck-builder)** — generator for branded, self-contained reveal.js training decks; real 17-slide "Clustering for Audit Analytics" example. [Live demo](https://neifertg.github.io/risk-analytics-portfolio/deck-builder/decks/clustering-for-audit/index.html)
+**[Presentation Deck Builder](https://github.com/neifertg/risk-analytics-portfolio/tree/main/deck-builder)** — generator for branded, self-contained reveal.js training decks; real 16-slide "Anomaly Detection for Internal Audit" example. [Live demo](https://neifertg.github.io/risk-analytics-portfolio/deck-builder/decks/anomaly-detection-for-internal-audit/index.html)
 </div>
 </div>
 
