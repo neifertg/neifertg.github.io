@@ -46,6 +46,9 @@ My flagship public portfolio — seven real, working internal-audit and risk-ana
 </div>
 </div>
 
+Also in that repo, outside the audit domain — general applied-ML breadth:
+**[Ames Housing Price Prediction](https://github.com/neifertg/risk-analytics-portfolio/tree/main/ames-housing-price-prediction)** (Ridge/Lasso/Random Forest, real Kaggle data) and **[IMDB Review Text Analytics](https://github.com/neifertg/risk-analytics-portfolio/tree/main/imdb-review-text-analytics)** (classical NLP — LDA topics, lexicon sentiment, a trained Naive Bayes classifier).
+
 **[Explore the full portfolio →](https://neifertg.github.io/risk-analytics-portfolio/)**
 
 **Currently building:** [wilderness-trail](https://github.com/neifertg/wilderness-trail) *(private — happy to walk through it, just ask)*, a GPS-aware, live-weather Oregon Trail-style survival sim with Duolingo-style species-ID training.
