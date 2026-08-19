@@ -1,6 +1,6 @@
 title: G. Seth Neifert
 markdown: kramdown
-description: "Risk & data analytics professional — automation, AI tooling, and real working projects."
+description: "AI/ML engineer building multi-agent orchestration, RAG, and evals for risk and audit teams — real, deployed projects."
 url: "https://neifertg.github.io"
 plugins:
   - jekyll-seo-tag

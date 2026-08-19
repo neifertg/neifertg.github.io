@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Risk & Data Analytics"
-description: "Risk & data analytics professional building automation, AI tooling, and real working risk-analytics projects."
+title: "Risk & Data Analytics — AI/ML Engineer"
+description: "AI/ML engineer building multi-agent orchestration, RAG, and evals for risk and audit teams — real, deployed projects."
 ---
 
 <a id="what-i-do"></a>
