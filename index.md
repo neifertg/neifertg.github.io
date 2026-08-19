@@ -72,6 +72,8 @@ Also on GitHub: [family-meal-planner](https://github.com/neifertg/family-meal-pl
 
 ## Background & Résumé
 
+**[Download résumé (PDF)](/assets/resume.pdf)**
+
 <details class="resume-details" markdown="1">
 <summary>Show full experience, education, certifications &amp; skills</summary>
 
