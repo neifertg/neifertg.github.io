@@ -23,6 +23,8 @@ Eight real, working risk-analytics projects, each with real data, real metrics, 
 <div class="card-flagship" markdown="1">
 <span class="flagship-badge">Flagship</span>
 
+![A question goes to a Sonnet supervisor, which dispatches to three scoped Haiku sub-agents (sampling, fraud-risk, standards), each calling only its own tools on a shared MCP server wrapping five shipped projects; the supervisor reconciles the sub-agents' answers into one synthesized, cited response.](https://raw.githubusercontent.com/neifertg/risk-analytics-portfolio/main/assets/audit-engagement-co-pilot-architecture.svg)
+
 **[Audit Engagement Co-Pilot](https://github.com/neifertg/risk-analytics-portfolio/tree/main/audit-engagement-co-pilot)** — hierarchical multi-agent system: a Sonnet supervisor dispatching to specialist sub-agents (sampling, fraud-risk, standards) over a real MCP server, with genuine fan-out + reconciliation and a 6/6 multi-agent eval suite. Deployed live via Docker on Render.
 
 [Live demo →](https://audit-engagement-co-pilot.onrender.com)
