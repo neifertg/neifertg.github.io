@@ -18,17 +18,29 @@ Outside of work I ship real, working risk-analytics projects in public — no mo
 
 ### [Risk & Audit Analytics Portfolio](https://github.com/neifertg/risk-analytics-portfolio)
 
+Eight real, working risk-analytics projects, each with real data, real metrics, and honest write-ups of what broke. The two flagship pieces below are the deepest AI-engineering proof; six more real audit-analytics tools follow.
+
+<div class="card-flagship" markdown="1">
+<span class="flagship-badge">Flagship</span>
+
+**[Audit Engagement Co-Pilot](https://github.com/neifertg/risk-analytics-portfolio/tree/main/audit-engagement-co-pilot)** — hierarchical multi-agent system: a Sonnet supervisor dispatching to specialist sub-agents (sampling, fraud-risk, standards) over a real MCP server, with genuine fan-out + reconciliation and a 6/6 multi-agent eval suite. Deployed live via Docker on Render.
+
+[Live demo →](https://audit-engagement-co-pilot.onrender.com)
+</div>
+
+<div class="card-flagship" markdown="1">
+<span class="flagship-badge">Flagship</span>
+
 ![Audit Procedures RAG Assistant answering a question with cited sources and per-session cost tracking](https://raw.githubusercontent.com/neifertg/risk-analytics-portfolio/main/assets/audit-rag-assistant-demo.png)
 
-My flagship public portfolio — eight real, working risk-analytics projects, each with real data, real metrics, and honest write-ups of what broke:
+**[Audit Procedures RAG Assistant](https://github.com/neifertg/risk-analytics-portfolio/tree/main/audit-rag-assistant)** — LLM question-answering grounded in an audit-procedures corpus, with a groundedness guardrail that declines to answer rather than guess. Now also demos real-organization tailoring: University of California's own public audit records toggled against generic guidance, side by side.
+
+[Live demo →](https://84abkcnqvptyedbbssztx8.streamlit.app/)
+</div>
+
+**Also in that portfolio — six more real, working audit-analytics tools:**
 
 <div class="card-grid" markdown="1">
-<div class="card" markdown="1">
-**[Audit Engagement Co-Pilot](https://github.com/neifertg/risk-analytics-portfolio/tree/main/audit-engagement-co-pilot)** — hierarchical multi-agent system: a Sonnet supervisor dispatching to specialist sub-agents (sampling, fraud-risk, standards) over a real MCP server, with genuine fan-out + reconciliation and a 6/6 multi-agent eval suite. [Live demo](https://audit-engagement-co-pilot.onrender.com)
-</div>
-<div class="card" markdown="1">
-**[Audit Procedures RAG Assistant](https://github.com/neifertg/risk-analytics-portfolio/tree/main/audit-rag-assistant)** — LLM question-answering grounded in an audit-procedures corpus, with a groundedness guardrail that declines to answer rather than guess. Now also demos real-organization tailoring: University of California's own public audit records toggled against generic guidance, side by side. [Live demo](https://84abkcnqvptyedbbssztx8.streamlit.app/)
-</div>
 <div class="card" markdown="1">
 **[Benford's Law Analyzer](https://github.com/neifertg/risk-analytics-portfolio/tree/main/benfords-law-analyzer)** — forensic-accounting screening run against ~6,400 real SEC EDGAR filings (chi-square p=0.20).
 </div>
