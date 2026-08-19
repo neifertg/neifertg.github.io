@@ -1,16 +1,16 @@
 ---
 layout: default
-title: "Internal Audit & Risk Analytics"
-description: "Internal audit & risk analytics professional building automation, AI tooling, and real working audit-analytics projects."
+title: "Risk & Data Analytics"
+description: "Risk & data analytics professional building automation, AI tooling, and real working risk-analytics projects."
 ---
 
 <a id="what-i-do"></a>
 
 ## What I Do
 
-Data Scientist on an Internal Audit Data & Analytics team — I turn manual, sample-based audit work into automated, full-population testing, and write the AI governance frameworks that make GenAI safe to use in audit workflows. CIA-certified, MS in Business Analytics: the rare combination of real audit/risk domain depth and the engineering to build the automation, not just spec it.
+Data Scientist on an Internal Audit Data & Analytics team — I turn manual, sample-based audit work into automated, full-population testing, and write the AI governance frameworks that make GenAI safe to use in high-stakes risk workflows. CIA-certified, MS in Business Analytics: the rare combination of real risk/audit domain depth and the engineering to build the automation, not just spec it.
 
-Outside of work I ship real, working risk-analytics projects in public — no mockups, honest write-ups of what broke. Most RAG projects fail on corpus quality, not model choice; the RAG assistant in Featured Work below is proof I build that layer first, on documentation treated as infrastructure (schema-validated, linted, CI-checked).
+Outside of work I ship real, working risk-analytics projects in public — no mockups, honest write-ups of what broke. Most multi-agent systems don't reach production and most RAG projects fail on corpus quality, not model choice; the two flagship projects in Featured Work below are proof I build that way — real orchestration, real evals, and the retrieval layer treated as infrastructure (schema-validated, linted, CI-checked).
 
 <a id="featured-work"></a>
 
@@ -20,9 +20,12 @@ Outside of work I ship real, working risk-analytics projects in public — no mo
 
 ![Audit Procedures RAG Assistant answering a question with cited sources and per-session cost tracking](https://raw.githubusercontent.com/neifertg/risk-analytics-portfolio/main/assets/audit-rag-assistant-demo.png)
 
-My flagship public portfolio — seven real, working internal-audit and risk-analytics projects, each with real data, real metrics, and honest write-ups of what broke:
+My flagship public portfolio — eight real, working risk-analytics projects, each with real data, real metrics, and honest write-ups of what broke:
 
 <div class="card-grid" markdown="1">
+<div class="card" markdown="1">
+**[Audit Engagement Co-Pilot](https://github.com/neifertg/risk-analytics-portfolio/tree/main/audit-engagement-co-pilot)** — hierarchical multi-agent system: a Sonnet supervisor dispatching to specialist sub-agents (sampling, fraud-risk, standards) over a real MCP server, with genuine fan-out + reconciliation and a 6/6 multi-agent eval suite. [Live demo](https://audit-engagement-co-pilot.onrender.com)
+</div>
 <div class="card" markdown="1">
 **[Audit Procedures RAG Assistant](https://github.com/neifertg/risk-analytics-portfolio/tree/main/audit-rag-assistant)** — LLM question-answering grounded in an audit-procedures corpus, with a groundedness guardrail that declines to answer rather than guess. Now also demos real-organization tailoring: University of California's own public audit records toggled against generic guidance, side by side. [Live demo](https://84abkcnqvptyedbbssztx8.streamlit.app/)
 </div>
