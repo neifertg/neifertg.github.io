@@ -76,8 +76,8 @@ Also in that repo, outside the audit domain — general applied-ML breadth:
 
 Enterprise-scale work built at Fannie Mae and HealthEquity — internal tools, not public repos, but the clearest proof of what I build at scale:
 
-- **RADAR** (Risk Analytics Dashboard for Access Review) — R Shiny platform automating ITGC controls testing across access, change management, and incident management; full-population testing instead of sampling. **~930 hrs/year** saved.
-- **AI governance framework + custom GitHub Copilot agents** (`VS_Template_Files`) — role boundaries and IIA-aligned guardrails for safely using GenAI in audit work. Cut analytics time **80%**, expanded test coverage **3x**.
+- **RADAR** (Risk Analytics Data for Access Review) — a web application automating 13 ITGC controls across access, change management, and incident management, replacing manual sampling with full-population testing. **~930 hrs/year** saved.
+- **10 custom GitHub Copilot agents + AI governance framework** (`VS_Template_Files`) — role boundaries, IIA-aligned guardrails, and communication standards for safely using GenAI in audit work. Cut analytics time **80%**, expanded test coverage **3x**.
 - **GXS Data XRAY** — R Shiny app automating data-quality assessment and field-level analysis across enterprise datasets, with AI-ready context packages for faster project onboarding.
 
 Also on GitHub: [family-meal-planner](https://github.com/neifertg/family-meal-planner) (meal planning) · [android-lab](https://github.com/neifertg/android-lab) (Android-as-server experiments).
@@ -95,21 +95,17 @@ Also on GitHub: [family-meal-planner](https://github.com/neifertg/family-meal-pl
 
 <div class="timeline" markdown="1">
 <div class="timeline-entry" markdown="1">
-<div class="timeline-header"><span class="timeline-role">Internal Audit — Senior Associate, Data & Analytics</span><span class="timeline-meta">Fannie Mae · Feb 2022 – Present</span></div>
+<div class="timeline-header"><span class="timeline-role">Senior Risk Analyst &amp; Data Scientist</span><span class="timeline-meta">Fannie Mae · Feb 2022 – Present</span></div>
 
-- Architected and deployed RADAR, an R Shiny platform automating ITGC controls testing — full-population testing instead of manual sampling, ~930 hrs/year saved.
-- Built custom GitHub Copilot agents and authored the supporting AI governance framework — cut audit analytics time 80% while expanding test coverage 3x.
-- Built GXS Data XRAY, automating data quality assessment, document conversion, and field-level analysis across enterprise datasets.
-- Led department-wide Data Labs training on advanced analytics, AI enablement, and practical GenAI use cases.
-- Built and deployed ML models (NLP, anomaly detection, peer analysis), R Shiny dashboards, and automated ETL pipelines, partnering with IT, audit, and risk stakeholders.
+- Built 10 custom GitHub Copilot agents and authored the supporting AI governance framework (role boundaries, IIA-aligned guardrails, communication standards) — reducing audit analytics time by 80% while expanding test coverage 3x.
+- Built RADAR (Risk Analytics Data for Access Review), a web application automating 13 ITGC controls across access, change management, and incident management — replacing manual sampling with full-population testing and saving an estimated ~930 hours/year.
+- Built and deployed ML models (NLP, anomaly detection, peer analysis), R Shiny dashboards, and automated ETL pipelines; partnered with IT, audit, and risk stakeholders to define KPIs and co-design scalable analytics aligned with enterprise data governance.
 </div>
 <div class="timeline-entry" markdown="1">
-<div class="timeline-header"><span class="timeline-role">Internal Auditor</span><span class="timeline-meta">HealthEquity · Feb 2018 – Feb 2022</span></div>
+<div class="timeline-header"><span class="timeline-role">Senior Internal Auditor – Data Analytics Lead</span><span class="timeline-meta">HealthEquity · Feb 2018 – Feb 2022</span></div>
 
-- Project-managed the Data Analytics program aligning risk with team strategy; tools: SQL Management Studio, Azure, Windows PowerShell.
-- Led issue-remediation reporting (Tableau, VBA-enabled workbooks) tracking high-risk issues through their lifecycle for IA and Executive management.
-- Administered the GRC platform — data maintenance, dashboard development, partner relations, training, reporting, and user access.
-- Participated in risk assessment, planning, fieldwork, and reporting for SOX and operational engagements.
+- Built analytics pipelines and Tableau dashboards for audit, risk, and compliance monitoring; automated controls testing using SQL, VBA, and Azure.
+- Managed GRC system integrations and delivered data solutions for internal stakeholders.
 </div>
 <div class="timeline-entry" markdown="1">
 <div class="timeline-header"><span class="timeline-role">Information Technology Services Specialist</span><span class="timeline-meta">Brigham Young University · Aug 2017 – Feb 2018</span></div>
@@ -152,7 +148,10 @@ Also on GitHub: [family-meal-planner](https://github.com/neifertg/family-meal-pl
 
 ### Skills
 
-Python · R / Shiny · SQL · NLP · Retrieval-augmented generation (hand-rolled, no framework) · Evals & retrieval guardrails · Embedding-based retrieval debugging · Tableau · VBA · Azure · AWS · Splunk · ETL Pipeline Design
+- **Languages:** Python, R, SQL, PowerShell
+- **AI Engineering & ML:** NLP, Predictive Modeling, Clustering, Anomaly Detection, RAG, Multi-Agent Orchestration, Prompt Engineering, Evals, AI Governance
+- **Cloud & DevOps:** AWS (SageMaker AI, Bedrock), Docker, GitHub Actions (CI)
+- **Platforms & Tools:** VS Code, GitHub Copilot, MCP, Git, Jupyter, Posit (R), Tableau, Jira, Bitbucket, GRC Tools
 
 </details>
 
