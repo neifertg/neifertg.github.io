@@ -82,6 +82,16 @@ Enterprise-scale work built at Fannie Mae and HealthEquity — internal tools, n
 
 Also on GitHub: [family-meal-planner](https://github.com/neifertg/family-meal-planner) (meal planning) · [android-lab](https://github.com/neifertg/android-lab) (Android-as-server experiments).
 
+<a id="beyond-work"></a>
+
+## Beyond Work
+
+I'm a dad first — most weekends we're on a trail somewhere in Virginia or West Virginia, hiking or fishing, or I'm out for a run. I read a lot: *East of Eden* is the book I keep coming back to, and *Radical Candor* and *Dare to Lead* have shaped how I think about leading people as much as any technical course has. I'm also a die-hard Civil War history buff and an Abraham Lincoln admirer — living in Virginia means the battlefields are basically in my backyard, and "I am a slow walker, but I never walk back" is a line I come back to a lot.
+
+Lately I've been teaching myself electronics for fun, not work: I built a basketball shot-clock game with an Arduino and a VL53L0X time-of-flight sensor to detect made shots, and I'm working my way toward real robotics next.
+
+I care about real results and real creation, not smoke and mirrors — too much of the current AI conversation is leaders, professionals, and companies performing AI use without ever showing real outputs. My bar for supporting any AI or technology: does it foster real human connection, human health (mental, physical, financial, or spiritual), or help the planet? If it doesn't clear that bar, I'm not interested.
+
 <a id="background-resume"></a>
 
 ## Background & Résumé
