@@ -4,11 +4,13 @@ title: "Risk & Data Analytics — AI/ML Engineer"
 description: "AI/ML engineer building multi-agent orchestration, RAG, and evals for risk and audit teams — real, deployed projects."
 ---
 
+> "I am a slow walker, but I never walk back." — Abraham Lincoln
+
 <a id="what-i-do"></a>
 
 ## What I Do
 
-Data Scientist on an Internal Audit Data & Analytics team — I turn manual, sample-based audit work into automated, full-population testing, and write the AI governance frameworks that make GenAI safe to use in high-stakes risk workflows. CIA-certified, MS in Business Analytics: the rare combination of real risk/audit domain depth and the engineering to build the automation, not just spec it.
+Data Scientist Supporting Risk and Audit Teams — I turn manual, sample-based audit work into automated, full-population testing, and write the AI governance frameworks that make GenAI safe to use in high-stakes risk workflows. CIA-certified, MS in Business Analytics: the rare combination of real risk/audit domain depth and the engineering to build the automation, not just spec it.
 
 Outside of work I ship real, working risk-analytics projects in public — no mockups, honest write-ups of what broke. Most multi-agent systems don't reach production and most RAG projects fail on corpus quality, not model choice; the two flagship projects in Featured Work below are proof I build that way — real orchestration, real evals, and the retrieval layer treated as infrastructure (schema-validated, linted, CI-checked).
 
@@ -86,11 +88,11 @@ Also on GitHub: [family-meal-planner](https://github.com/neifertg/family-meal-pl
 
 ## Beyond Work
 
-I'm a dad first — most weekends we're on a trail somewhere in Virginia or West Virginia, hiking or fishing, or I'm out for a run. I read a lot: *East of Eden* is the book I keep coming back to, and *Radical Candor* and *Dare to Lead* have shaped how I think about leading people as much as any technical course has. I'm also a die-hard Civil War history buff and an Abraham Lincoln admirer — living in Virginia means the battlefields are basically in my backyard, and "I am a slow walker, but I never walk back" is a line I come back to a lot.
+I'm a dad first — most weekends we're on a trail somewhere in Virginia or West Virginia, hiking or fishing, or I'm out for a run. I read a lot: *East of Eden* is the book I keep coming back to, and *Radical Candor* and *Dare to Lead* have shaped the leader and team member I strive to be. I'm also a die-hard Civil War history buff and an Abraham Lincoln admirer — living in Virginia means the battlefields are basically in my backyard. 
 
 Lately I've been teaching myself electronics for fun, not work: I built a basketball shot-clock game with an Arduino and a VL53L0X time-of-flight sensor to detect made shots, and I'm working my way toward real robotics next.
 
-I care about real results and real creation, not smoke and mirrors — too much of the current AI conversation is leaders, professionals, and companies performing AI use without ever showing real outputs. My bar for supporting any AI or technology: does it foster real human connection, human health (mental, physical, financial, or spiritual), or help the planet? If it doesn't clear that bar, I'm not interested.
+I care about real results and creation, not smoke and mirrors — too much of the current AI conversation is leaders, professionals, and companies performing AI use without valuable outputs.
 
 <a id="background-resume"></a>
 
