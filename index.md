@@ -4,8 +4,6 @@ title: "Risk & Data Analytics — AI/ML Engineer"
 description: "AI/ML engineer building multi-agent orchestration, RAG, and evals for risk and audit teams — real, deployed projects."
 ---
 
-> "I am a slow walker, but I never walk back." — Abraham Lincoln
-
 <a id="what-i-do"></a>
 
 ## What I Do
