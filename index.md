@@ -8,7 +8,7 @@ description: "AI/ML engineer building multi-agent orchestration, RAG, and evals 
 
 ## What I Do
 
-Data Scientist Supporting Risk and Audit Teams — I turn manual, sample-based audit work into automated, full-population testing, and write the AI governance frameworks that make GenAI safe to use in high-stakes risk workflows. CIA-certified, MS in Business Analytics: the rare combination of real risk/audit domain depth and the engineering to build the automation, not just spec it.
+9 years delivering insights and efficiencies across internal audit, risk, and compliance — I turn manual, sample-based audit work into automated, full-population testing, and write the AI governance frameworks that make GenAI safe to use in high-stakes risk workflows. CIA-certified, MS in Business Analytics: the rare combination of real risk/audit domain depth and the engineering to build the automation, not just spec it.
 
 Outside of work I ship real, working risk-analytics projects in public — no mockups, honest write-ups of what broke. Most multi-agent systems don't reach production and most RAG projects fail on corpus quality, not model choice; the two flagship projects in Featured Work below are proof I build that way — real orchestration, real evals, and the retrieval layer treated as infrastructure (schema-validated, linted, CI-checked).
 
