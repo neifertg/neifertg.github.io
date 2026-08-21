@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Risk & Data Analytics — AI/ML Engineer"
-description: "AI/ML engineer building multi-agent orchestration, RAG, and evals for risk and audit teams — real, deployed projects."
+title: "Data Scientist for Internal Audit & Risk"
+description: "Data scientist delivering insights and efficiencies for internal audit, risk, and compliance teams — real, deployed projects."
 ---
 
 <a id="what-i-do"></a>
