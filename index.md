@@ -68,6 +68,16 @@ Also in that repo, outside the audit domain — general applied-ML breadth:
 
 **[Explore the full portfolio →](https://neifertg.github.io/risk-analytics-portfolio/)**
 
+### [ML Field Guide](https://neifertg.github.io/ml-field-guide/)
+
+<div class="card-flagship" markdown="1">
+<span class="flagship-badge">Flagship</span>
+
+**[ML Field Guide](https://neifertg.github.io/ml-field-guide/)** — a from-scratch reference covering 19 ML techniques, from regression through clustering, anomaly detection, survival analysis, and topic modeling. Each technique gets a plain-English mechanics breakdown, good-fit/poor-fit cases, minimum requirements, common pitfalls, and an independently-verified further-reading citation (two mismatched sources caught and corrected in that process, documented rather than hidden). Includes an interactive decision flowchart and a one-question-at-a-time selection wizard — both rewritten so someone without a stats background can define their target variable and reason through the choice — plus a 24-question review quiz. All self-contained static pages, no build step, no dependencies beyond Google Fonts.
+
+[Explore the guide →](https://neifertg.github.io/ml-field-guide/)
+</div>
+
 **Currently building:** [wilderness-trail](https://github.com/neifertg/wilderness-trail) *(private — happy to walk through it, just ask)*, a GPS-aware, live-weather Oregon Trail-style survival sim with Duolingo-style species-ID training.
 
 <a id="professional-impact"></a>
