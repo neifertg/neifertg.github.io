@@ -73,7 +73,9 @@ Also in that repo, outside the audit domain — general applied-ML breadth:
 <div class="card-flagship" markdown="1">
 <span class="flagship-badge">Flagship</span>
 
-**[ML Field Guide](https://neifertg.github.io/ml-field-guide/)** — a from-scratch reference covering 19 ML techniques, from regression through clustering, anomaly detection, survival analysis, and topic modeling. Each technique gets a plain-English mechanics breakdown, good-fit/poor-fit cases, minimum requirements, common pitfalls, and an independently-verified further-reading citation (two mismatched sources caught and corrected in that process, documented rather than hidden). Includes an interactive decision flowchart and a one-question-at-a-time selection wizard — both rewritten so someone without a stats background can define their target variable and reason through the choice — plus a 24-question review quiz. All self-contained static pages, no build step, no dependencies beyond Google Fonts.
+![ML Field Guide's decision flowchart, routing from a plain-language question about your target variable down through the supervised and unsupervised branches to a recommended technique](https://raw.githubusercontent.com/neifertg/ml-field-guide/master/assets/images/flowchart-snapshot.png)
+
+**[ML Field Guide](https://neifertg.github.io/ml-field-guide/)** — a from-scratch reference covering 19 ML techniques, each with plain-English mechanics, good/poor-fit cases, and a verified citation. Includes an interactive decision flowchart, a step-by-step wizard, and a review quiz, written for readers without a stats background.
 
 [Explore the guide →](https://neifertg.github.io/ml-field-guide/)
 </div>
