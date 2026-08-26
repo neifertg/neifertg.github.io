@@ -82,18 +82,6 @@ Also in that repo, outside the audit domain — general applied-ML breadth:
 
 **Currently building:** [wilderness-trail](https://github.com/neifertg/wilderness-trail) *(private — happy to walk through it, just ask)*, a GPS-aware, live-weather Oregon Trail-style survival sim with Duolingo-style species-ID training.
 
-<a id="professional-impact"></a>
-
-## Professional Impact
-
-Enterprise-scale work built at Fannie Mae and HealthEquity — internal tools, not public repos, but the clearest proof of what I build at scale:
-
-- **RADAR** (Risk Analytics Data for Access Review) — a web application automating 13 ITGC controls across access, change management, and incident management, replacing manual sampling with full-population testing. **~930 hrs/year** saved.
-- **10 custom GitHub Copilot agents + AI governance framework** (`VS_Template_Files`) — role boundaries, IIA-aligned guardrails, and communication standards for safely using GenAI in audit work. Cut analytics time **80%**, expanded test coverage **3x**.
-- **GXS Data XRAY** — R Shiny app automating data-quality assessment and field-level analysis across enterprise datasets, with AI-ready context packages for faster project onboarding.
-
-Also on GitHub: [family-meal-planner](https://github.com/neifertg/family-meal-planner) (meal planning) · [android-lab](https://github.com/neifertg/android-lab) (Android-as-server experiments).
-
 <a id="beyond-work"></a>
 
 ## Beyond Work
@@ -119,9 +107,10 @@ I care about real results and creation, not smoke and mirrors — too much of th
 <div class="timeline-entry" markdown="1">
 <div class="timeline-header"><span class="timeline-role">Senior Risk Analyst &amp; Data Scientist</span><span class="timeline-meta">Fannie Mae · Feb 2022 – Present</span></div>
 
-- Built 10 custom GitHub Copilot agents and authored the supporting AI governance framework (role boundaries, IIA-aligned guardrails, communication standards) — reducing audit analytics time by 80% while expanding test coverage 3x.
-- Built RADAR (Risk Analytics Data for Access Review), a web application automating 13 ITGC controls across access, change management, and incident management — replacing manual sampling with full-population testing and saving an estimated ~930 hours/year.
-- Built and deployed ML models (NLP, anomaly detection, peer analysis), R Shiny dashboards, and automated ETL pipelines; partnered with IT, audit, and risk stakeholders to define KPIs and co-design scalable analytics aligned with enterprise data governance.
+- Applied machine learning to Splunk-based event-log analysis across hundreds of millions of records to surface hidden behavioral and operational patterns for IT and Operations audits — findings drove substantial control redesign and enhancement recommendations.
+- Automated 13 access, change-management, and incident-management controls, replacing manual sampling with full-population testing — ~930 hours/year saved.
+- Built and rolled out an AI governance framework and a suite of GenAI coding agents with role-scoped guardrails aligned to IIA standards, enabling non-technical department staff to independently perform AI-assisted analytics with standardized documentation of results — cut analytics turnaround time 80%, expanded test coverage 3x.
+- Currently architecting an internal department wiki extending that governance framework into a shared, trusted methodology base — scaling AI-assisted workflows with the same guardrails across the team.
 </div>
 <div class="timeline-entry" markdown="1">
 <div class="timeline-header"><span class="timeline-role">Senior Internal Auditor – Data Analytics Lead</span><span class="timeline-meta">HealthEquity · Feb 2018 – Feb 2022</span></div>
@@ -181,6 +170,6 @@ I care about real results and creation, not smoke and mirrors — too much of th
 
 ## Contact
 
-- [GitHub](https://github.com/neifertg)
+- [GitHub](https://github.com/neifertg) — also see [family-meal-planner](https://github.com/neifertg/family-meal-planner) (meal planning) and [android-lab](https://github.com/neifertg/android-lab) (Android-as-server experiments)
 - [LinkedIn](https://www.linkedin.com/in/g-seth-neifert-7668b6b6/)
 - [Email](mailto:gsneifert@gmail.com)

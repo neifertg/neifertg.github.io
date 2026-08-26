@@ -8,10 +8,8 @@ Internal audit & risk analytics professional — automation, AI tooling, and rea
 
 - **What I Do** — positioning and background
 - **Featured Work** — the [Risk & Audit Analytics Portfolio](https://github.com/neifertg/risk-analytics-portfolio), six public, working audit-analytics projects
-- **Professional Impact** — enterprise tools built at Fannie Mae (RADAR, AI governance framework, GXS Data XRAY)
-- **Currently Building** — active side projects
-- **Other Interests** — side projects outside of work
-- **Background & Résumé** — full experience, education, certifications, skills
+- **Beyond Work** — life outside work, plus active side projects
+- **Background & Résumé** — full experience (including Fannie Mae impact bullets), education, certifications, skills
 
 ## Contact
 
