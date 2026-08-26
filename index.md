@@ -8,9 +8,9 @@ description: "Data scientist delivering insights and efficiencies for internal a
 
 ## What I Do
 
-9 years delivering insights and efficiencies across internal audit, risk, and compliance — I turn manual, sample-based audit work into automated, full-population testing, and write the AI governance frameworks that make GenAI safe to use in high-stakes risk workflows. CIA-certified, MS in Business Analytics: the rare combination of real risk/audit domain depth and the engineering to build the automation, not just spec it.
+9 years delivering insights and efficiencies across internal audit, enterprise risk, and compliance. I leverage data science, machine learning, and analytics to provide department and enterprise wide insights and efficiencies. CIA-certified, MS in Business Analytics: the rare combination of real risk/audit domain depth and the engineering to build out end to end automated workflows, not just spec it.
 
-Outside of work I ship real, working risk-analytics projects in public — no mockups, honest write-ups of what broke. Most multi-agent systems don't reach production and most RAG projects fail on corpus quality, not model choice; the two flagship projects in Featured Work below are proof I build that way — real orchestration, real evals, and the retrieval layer treated as infrastructure (schema-validated, linted, CI-checked).
+Outside of work I've started a working risk-analytics projects in a public repo. I've found that multi-agent systems don't reach production and most RAG projects fail on corpus quality, not model choice; the two flagship projects in Featured Work below are proof I build that way — real orchestration, real evals, and the retrieval layer treated as infrastructure (schema-validated, linted, CI-checked).
 
 <a id="featured-work"></a>
 
@@ -18,7 +18,7 @@ Outside of work I ship real, working risk-analytics projects in public — no mo
 
 ### [Risk & Audit Analytics Portfolio](https://github.com/neifertg/risk-analytics-portfolio)
 
-Eight real, working risk-analytics projects, each with real data, real metrics, and honest write-ups of what broke. The two flagship pieces below are the deepest AI-engineering proof; six more real audit-analytics tools follow.
+Working risk-analytics projects, each with real data, real metrics, and honest write-ups of bugs and fixes over time. The two flagship pieces below are the deepest AI-engineering proof; six more real audit-analytics tools follow.
 
 <div class="card-flagship" markdown="1">
 <span class="flagship-badge">Flagship</span>
@@ -98,11 +98,9 @@ Also on GitHub: [family-meal-planner](https://github.com/neifertg/family-meal-pl
 
 ## Beyond Work
 
-I'm a dad first — most weekends we're on a trail somewhere in Virginia or West Virginia, hiking or fishing, or I'm out for a run. I read a lot: *East of Eden* is the book I keep coming back to, and *Radical Candor* and *Dare to Lead* have shaped the leader and team member I strive to be. I'm also a die-hard Civil War history buff and an Abraham Lincoln admirer — living in Virginia means the battlefields are basically in my backyard. 
+Most weekends I'm on on a family hike somewhere in Virginia or West Virginia, hiking or fishing, or I'm out for a run. I read a lot: *East of Eden* is the book I keep coming back to, and *Radical Candor* and *Dare to Lead* have shaped the leader and team member I strive to be. I'm also a Civil War history buff, and I am loving being so close to that history here in northern Virginia.
 
 Lately I've been teaching myself electronics for fun, not work: I built a basketball shot-clock game with an Arduino and a VL53L0X time-of-flight sensor to detect made shots, and I'm working my way toward real robotics next.
-
-I care about real results and creation, not smoke and mirrors — too much of the current AI conversation is leaders, professionals, and companies performing AI use without valuable outputs.
 
 <a id="background-resume"></a>
 
