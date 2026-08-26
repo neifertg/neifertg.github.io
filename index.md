@@ -8,9 +8,9 @@ description: "Data scientist delivering insights and efficiencies for internal a
 
 ## What I Do
 
-9 years delivering insights and efficiencies across internal audit, enterprise risk, and compliance. I leverage data science, machine learning, and analytics to provide department and enterprise wide insights and efficiencies. CIA-certified, MS in Business Analytics: the rare combination of real risk/audit domain depth and the engineering to build out end to end automated workflows, not just spec it.
+9 years delivering insights and efficiencies across internal audit, enterprise risk, and compliance. I leverage data science, machine learning, and analytics to provide department- and enterprise-wide insights and efficiencies. CIA-certified, MS in Business Analytics: the rare combination of real risk/audit domain depth and the engineering to build out end-to-end automated workflows, not just spec it.
 
-Outside of work I've started a working risk-analytics projects in a public repo. I've found that multi-agent systems don't reach production and most RAG projects fail on corpus quality, not model choice; the two flagship projects in Featured Work below are proof I build that way — real orchestration, real evals, and the retrieval layer treated as infrastructure (schema-validated, linted, CI-checked).
+Outside of work I've started a working risk-analytics project in a public repo. I've found that multi-agent systems don't reach production and most RAG projects fail on corpus quality, not model choice; the two flagship projects in Featured Work below are proof I build that way — real orchestration, real evals, and the retrieval layer treated as infrastructure (schema-validated, linted, CI-checked).
 
 <a id="featured-work"></a>
 
@@ -86,7 +86,7 @@ Also in that repo, outside the audit domain — general applied-ML breadth:
 
 ## Beyond Work
 
-Most weekends I'm on on a family hike somewhere in Virginia or West Virginia, hiking or fishing, or I'm out for a run. I read a lot: *East of Eden* is the book I keep coming back to, and *Radical Candor* and *Dare to Lead* have shaped the leader and team member I strive to be. I'm also a Civil War history buff, and I am loving being so close to that history here in northern Virginia.
+Most weekends I'm on a family hike somewhere in Virginia or West Virginia, hiking or fishing, or I'm out for a run. I read a lot: *East of Eden* is the book I keep coming back to, and *Radical Candor* and *Dare to Lead* have shaped the leader and team member I strive to be. I'm also a Civil War history buff, and I am loving being so close to that history here in northern Virginia.
 
 Lately I've been teaching myself electronics for fun, not work: I built a basketball shot-clock game with an Arduino and a VL53L0X time-of-flight sensor to detect made shots, and I'm working my way toward real robotics next.
 
