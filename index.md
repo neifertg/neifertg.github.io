@@ -10,7 +10,7 @@ description: "Data scientist delivering insights and efficiencies for internal a
 
 9 years delivering insights and efficiencies across internal audit, enterprise risk, and compliance. I leverage data science, machine learning, and analytics to provide department- and enterprise-wide insights and efficiencies. CIA-certified, MS in Business Analytics: the rare combination of real risk/audit domain depth and the engineering to build out end-to-end automated workflows, not just spec it.
 
-Outside of work I've started a working risk-analytics project in a public repo. I've found that multi-agent systems don't reach production and most RAG projects fail on corpus quality, not model choice; the two flagship projects in Featured Work below are proof I build that way — real orchestration, real evals, and the retrieval layer treated as infrastructure (schema-validated, linted, CI-checked).
+Outside of work I've started a working risk-analytics project in a public repo. The point of the two flagship projects below is simple: answer an audit question from the source material, or hand it to the right specialist tool, and show the work. I've found that multi-agent systems don't reach production and most RAG projects fail on corpus quality, not model choice; those projects are proof I build that way — real orchestration, real evals, and the retrieval layer treated as infrastructure (schema-validated, linted, CI-checked).
 
 <a id="featured-work"></a>
 
@@ -25,7 +25,7 @@ Working risk-analytics projects, each with real data, real metrics, and honest w
 
 ![A question goes to a Sonnet supervisor, which dispatches to three scoped Haiku sub-agents (sampling, fraud-risk, standards), each calling only its own tools on a shared MCP server wrapping five shipped projects; the supervisor reconciles the sub-agents' answers into one synthesized, cited response.](https://raw.githubusercontent.com/neifertg/risk-analytics-portfolio/main/assets/audit-engagement-co-pilot-architecture.svg)
 
-**[Audit Engagement Co-Pilot](https://github.com/neifertg/risk-analytics-portfolio/tree/main/audit-engagement-co-pilot)** — hierarchical multi-agent system: a Sonnet supervisor dispatching to specialist sub-agents (sampling, fraud-risk, standards) over a real MCP server, with genuine fan-out + reconciliation and a 6/6 multi-agent eval suite. Deployed live via Docker on Render.
+**[Audit Engagement Co-Pilot](https://github.com/neifertg/risk-analytics-portfolio/tree/main/audit-engagement-co-pilot)** — An auditor asks one question and gets one cited answer, assembled from sampling, fraud-risk, and standards checks. Hierarchical multi-agent system: a Sonnet supervisor dispatching to specialist sub-agents (sampling, fraud-risk, standards) over a real MCP server, with genuine fan-out + reconciliation and a 6/6 multi-agent eval suite. Deployed live via Docker on Render.
 
 [Live demo →](https://audit-engagement-co-pilot.onrender.com)
 </div>
@@ -35,7 +35,7 @@ Working risk-analytics projects, each with real data, real metrics, and honest w
 
 ![Audit Procedures RAG Assistant answering a question with cited sources and per-session cost tracking](https://raw.githubusercontent.com/neifertg/risk-analytics-portfolio/main/assets/audit-rag-assistant-demo.png)
 
-**[Audit Procedures RAG Assistant](https://github.com/neifertg/risk-analytics-portfolio/tree/main/audit-rag-assistant)** — LLM question-answering grounded in an audit-procedures corpus, with a groundedness guardrail that declines to answer rather than guess. Now also demos real-organization tailoring: University of California's own public audit records toggled against generic guidance, side by side.
+**[Audit Procedures RAG Assistant](https://github.com/neifertg/risk-analytics-portfolio/tree/main/audit-rag-assistant)** — Answers a procedure question from a written audit library, and declines when that library does not support an answer. LLM question-answering grounded in an audit-procedures corpus, with a groundedness guardrail that declines to answer rather than guess. Now also demos real-organization tailoring: University of California's own public audit records toggled against generic guidance, side by side.
 
 [Live demo →](https://84abkcnqvptyedbbssztx8.streamlit.app/)
 </div>
@@ -44,27 +44,27 @@ Working risk-analytics projects, each with real data, real metrics, and honest w
 
 <div class="card-grid" markdown="1">
 <div class="card" markdown="1">
-**[Benford's Law Analyzer](https://github.com/neifertg/risk-analytics-portfolio/tree/main/benfords-law-analyzer)** — forensic-accounting screening run against ~6,400 real SEC EDGAR filings (chi-square p=0.20).
+**[Benford's Law Analyzer](https://github.com/neifertg/risk-analytics-portfolio/tree/main/benfords-law-analyzer)** — Screens a set of financial figures for an unusual leading-digit pattern, a standard forensic check. Run against ~6,400 real SEC EDGAR filings (chi-square p=0.20).
 </div>
 <div class="card" markdown="1">
-**[Duplicate Vendor Payment Checker](https://github.com/neifertg/risk-analytics-portfolio/tree/main/duplicate-vendor-payment-checker)** — four named AP-recon techniques, 98% recall / 100% precision on a seeded ledger.
+**[Duplicate Vendor Payment Checker](https://github.com/neifertg/risk-analytics-portfolio/tree/main/duplicate-vendor-payment-checker)** — Flags likely duplicate vendor payments. Four named AP-recon techniques, 98% recall / 100% precision on a seeded ledger.
 </div>
 <div class="card" markdown="1">
-**[Journal Entry Testing Analyzer](https://github.com/neifertg/risk-analytics-portfolio/tree/main/journal-entry-testing-analyzer)** — AU-C 240 / PCAOB AS 2401 fraud-risk journal-entry testing, 100% recall across five risk criteria.
+**[Journal Entry Testing Analyzer](https://github.com/neifertg/risk-analytics-portfolio/tree/main/journal-entry-testing-analyzer)** — Flags journal entries that match standard fraud-risk tests. AU-C 240 / PCAOB AS 2401 journal-entry testing, 100% recall across five risk criteria.
 </div>
 <div class="card" markdown="1">
-**[Segregation-of-Duties Conflict Checker](https://github.com/neifertg/risk-analytics-portfolio/tree/main/sod-conflict-checker)** — access-based SoD conflict detection, 100% recall and precision on synthetic access data.
+**[Segregation-of-Duties Conflict Checker](https://github.com/neifertg/risk-analytics-portfolio/tree/main/sod-conflict-checker)** — Flags users who hold both sides of a duty that should be split between two people. Access-based SoD conflict detection, 100% recall and precision on synthetic access data.
 </div>
 <div class="card" markdown="1">
-**[Statistical Audit Sampling Calculator](https://github.com/neifertg/risk-analytics-portfolio/tree/main/sampling-calculator)** — attribute and MUS/PPS sampling verified against 10 real published AICPA reliability-factor table values.
+**[Statistical Audit Sampling Calculator](https://github.com/neifertg/risk-analytics-portfolio/tree/main/sampling-calculator)** — Plans an audit sample and checks the math against published audit tables. Attribute and MUS/PPS sampling verified against 10 real published AICPA reliability-factor table values.
 </div>
 <div class="card" markdown="1">
-**[Presentation Deck Builder](https://github.com/neifertg/risk-analytics-portfolio/tree/main/deck-builder)** — generator for branded, self-contained reveal.js training decks; real 16-slide "Anomaly Detection for Internal Audit" example. [Live demo](https://neifertg.github.io/risk-analytics-portfolio/deck-builder/decks/anomaly-detection-for-internal-audit/index.html)
+**[Presentation Deck Builder](https://github.com/neifertg/risk-analytics-portfolio/tree/main/deck-builder)** — Turns an outline into a branded training deck. Generator for branded, self-contained reveal.js training decks; real 16-slide "Anomaly Detection for Internal Audit" example. [Live demo](https://neifertg.github.io/risk-analytics-portfolio/deck-builder/decks/anomaly-detection-for-internal-audit/index.html)
 </div>
 </div>
 
 Also in that repo, outside the audit domain — general applied-ML breadth:
-**[Ames Housing Price Prediction](https://github.com/neifertg/risk-analytics-portfolio/tree/main/ames-housing-price-prediction)** (Ridge/Lasso/Random Forest, real Kaggle data) and **[IMDB Review Text Analytics](https://github.com/neifertg/risk-analytics-portfolio/tree/main/imdb-review-text-analytics)** (classical NLP — LDA topics, lexicon sentiment, a trained Naive Bayes classifier).
+**[Ames Housing Price Prediction](https://github.com/neifertg/risk-analytics-portfolio/tree/main/ames-housing-price-prediction)** predicts home sale prices (Ridge/Lasso/Random Forest, real Kaggle data) and **[IMDB Review Text Analytics](https://github.com/neifertg/risk-analytics-portfolio/tree/main/imdb-review-text-analytics)** reads movie-review text for topics and sentiment (classical NLP — LDA topics, lexicon sentiment, a trained Naive Bayes classifier).
 
 **[Explore the full portfolio →](https://neifertg.github.io/risk-analytics-portfolio/)**
 
@@ -75,12 +75,12 @@ Also in that repo, outside the audit domain — general applied-ML breadth:
 
 ![ML Field Guide's decision flowchart, routing from a plain-language question about your target variable down through the supervised and unsupervised branches to a recommended technique](https://raw.githubusercontent.com/neifertg/ml-field-guide/master/assets/images/flowchart-snapshot.png)
 
-**[ML Field Guide](https://neifertg.github.io/ml-field-guide/)** — a from-scratch reference covering 19 ML techniques, each with plain-English mechanics, good/poor-fit cases, and a verified citation. Includes an interactive decision flowchart, a step-by-step wizard, and a review quiz, written for readers without a stats background.
+**[ML Field Guide](https://neifertg.github.io/ml-field-guide/)** — Helps a reader without a statistics background pick a machine-learning technique and explain why it fits. A from-scratch reference covering 19 ML techniques, each with plain-English mechanics, good/poor-fit cases, and a verified citation. Includes an interactive decision flowchart, a step-by-step wizard, and a review quiz.
 
 [Explore the guide →](https://neifertg.github.io/ml-field-guide/)
 </div>
 
-**Currently building:** [wilderness-trail](https://github.com/neifertg/wilderness-trail) *(private — happy to walk through it, just ask)*, a GPS-aware, live-weather Oregon Trail-style survival sim with Duolingo-style species-ID training.
+**Currently building:** wilderness-trail *(private, in progress — happy to walk through it, just ask)*, a GPS-aware, live-weather Oregon Trail-style survival sim with Duolingo-style species-ID training.
 
 <a id="beyond-work"></a>
 
