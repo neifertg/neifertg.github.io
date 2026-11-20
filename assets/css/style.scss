@@ -28,6 +28,9 @@
   --space-5: 3rem;
   --space-6: 4.5rem;
 
+  /* fluid sizes live in custom properties: GitHub Pages' Sass can't do math on rem + vw */
+  --fs-h2: clamp(1.75rem, 1.4rem + 1.2vw, 2.25rem);
+  --fs-hero: clamp(2.25rem, 1.6rem + 2.6vw, 3.4rem);
   --fs-body: 1.0625rem;
   --fs-small: 0.9rem;
   --radius: 14px;
@@ -57,7 +60,7 @@ a:focus-visible, summary:focus-visible {
 img { max-width: 100%; height: auto; }
 
 h1, h2, h3 { color: var(--text); line-height: 1.2; margin: 0 0 var(--space-2); }
-h2 { font-family: var(--font-display); font-weight: 500; font-size: clamp(1.75rem, 1.4rem + 1.2vw, 2.25rem); }
+h2 { font-family: var(--font-display); font-weight: 500; font-size: var(--fs-h2); }
 h3 { font-family: var(--font-display); font-weight: 600; font-size: 1.5rem; margin-top: var(--space-4); }
 p, ul, ol { margin: 0 0 var(--space-2); }
 hr { display: none; }
@@ -104,7 +107,7 @@ hr { display: none; }
 .hero-inner { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-5); }
 .hero-text { flex: 999 1 30rem; min-width: 0; }
 .eyebrow { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin: 0 0 1.25rem; }
-.hero h1 { font-family: var(--font-display); font-weight: 500; font-size: clamp(2.25rem, 1.6rem + 2.6vw, 3.4rem); line-height: 1.1; letter-spacing: -0.01em; margin: 0 0 var(--space-3); }
+.hero h1 { font-family: var(--font-display); font-weight: 500; font-size: var(--fs-hero); line-height: 1.1; letter-spacing: -0.01em; margin: 0 0 var(--space-3); }
 .hero-lede { font-size: 1.2rem; color: var(--muted); max-width: 38rem; margin: 0 0 var(--space-4); }
 .hero-photo { flex: 1 1 12rem; display: flex; justify-content: center; }
 .hero-photo img { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 0 6px var(--surface), 0 0 0 7px var(--border); }
