@@ -128,7 +128,8 @@ hr { display: none; }
 .button-secondary:hover { border-color: var(--text); color: var(--text); text-decoration: none; }
 
 /* Cards */
-.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); gap: var(--space-3); margin-bottom: var(--space-3); }
+/* 22rem keeps featured work at two columns on desktop (a clean 2x2), one on phones */
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(22rem, 100%), 1fr)); gap: var(--space-3); margin-bottom: var(--space-3); }
 .card {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -175,7 +176,7 @@ details.more summary::-webkit-details-marker { display: none; }
 details.more summary::before { content: '+'; display: inline-block; width: 1.1em; font-weight: 600; }
 details.more[open] summary::before { content: '\2212'; }
 details.more summary:hover { color: var(--accent-hover); }
-details.more > .card-grid { margin-top: var(--space-3); }
+details.more > .card-grid { margin-top: var(--space-3); grid-template-columns: repeat(auto-fit, minmax(min(16rem, 100%), 1fr)); }
 details.more .card { padding: 1.25rem 1.4rem; }
 details.more .card p { font-size: 0.95rem; }
 
