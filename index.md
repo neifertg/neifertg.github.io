@@ -80,6 +80,14 @@ Also in that repo, outside the audit domain — general applied-ML breadth:
 [Explore the guide →](https://neifertg.github.io/ml-field-guide/)
 </div>
 
+### [capitan](https://github.com/neifertg/capitan)
+
+<div class="card" markdown="1">
+**[capitan](https://github.com/neifertg/capitan)** — Keeps AI coding agents on course: every change starts from a one-page plan tied to a goal, gets checked by a second agent before it merges, and leaves its lessons for the next plan. Works with any AI coding tool.
+
+[See how it works →](https://github.com/neifertg/capitan#how-it-works)
+</div>
+
 **Currently building:** wilderness-trail *(private, in progress — happy to walk through it, just ask)*, a GPS-aware, live-weather Oregon Trail-style survival sim with Duolingo-style species-ID training.
 
 <a id="beyond-work"></a>
@@ -166,6 +174,6 @@ Most weekends I'm on a family hike somewhere in Virginia or West Virginia, hikin
 
 ## Contact
 
-- [GitHub](https://github.com/neifertg) — also see [family-meal-planner](https://github.com/neifertg/family-meal-planner) (meal planning) and [android-lab](https://github.com/neifertg/android-lab) (Android-as-server experiments)
+- [GitHub](https://github.com/neifertg)
 - [LinkedIn](https://www.linkedin.com/in/g-seth-neifert-7668b6b6/)
 - [Email](mailto:gsneifert@gmail.com)
