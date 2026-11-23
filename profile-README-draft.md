@@ -12,4 +12,4 @@ Data scientist for internal audit and risk, building AI-enabled audit tools.
 ## Links
 
 - [Personal site](https://neifertg.github.io/)
-- [Résumé (PDF)](https://neifertg.github.io/assets/resume.pdf)
+- [Resume (PDF)](https://neifertg.github.io/assets/resume.pdf)
