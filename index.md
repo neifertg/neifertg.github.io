@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Data Scientist for Internal Audit & Risk"
+title: G. Seth Neifert
 description: "Data scientist delivering insights and efficiencies for internal audit, risk, and compliance teams — real, deployed projects."
 ---
 
@@ -8,8 +8,8 @@ description: "Data scientist delivering insights and efficiencies for internal a
 <div class="container hero-inner">
 <div class="hero-text">
 <p class="eyebrow">Data scientist · Internal audit &amp; risk</p>
-<h1>Data science for internal audit, risk, and compliance.</h1>
-<p class="hero-lede">9 years delivering insights and efficiencies across internal audit, enterprise risk, and compliance, with real, deployed projects you can try.</p>
+<h1>Risk, controls, and analytics | Turning messy data into insights and efficiencies | CIA, MS Business Analytics</h1>
+<p class="hero-lede">More than eight years across internal audit, risk, and compliance. I find faster, more complete ways to test controls and surface risk, and I keep the judgment with people.</p>
 <div class="button-row">
 <a class="button" href="#featured-work">See featured work</a>
 <a class="button-secondary" href="/assets/resume.pdf">Download résumé (PDF)</a>
@@ -27,9 +27,15 @@ description: "Data scientist delivering insights and efficiencies for internal a
 <h2>Featured work</h2>
 <a href="https://github.com/neifertg">All projects on GitHub →</a>
 </div>
-<p class="section-intro">The point of the two flagship projects below is simple: answer an audit question from the source material, or hand it to the right specialist tool, and show the work. I've found that multi-agent systems don't reach production and most RAG projects fail on corpus quality, not model choice; those projects have real orchestration, evals, and the retrieval layer treated as infrastructure (schema-validated, linted, CI-checked).</p>
+<p class="section-intro">The 10-K drift report and the analytics tools below are meant to answer a risk, controls, or audit question from the source material, or hand it to the right tool, and show the work. If the source does not support a conclusion, they say so.</p>
 
 <div class="card-grid">
+<article class="card">
+<h3><a href="https://neifertg.github.io/10k-drift-detector/">10-K disclosure drift</a></h3>
+<p>Compares Item 1A (Risk Factors) and Item 9A (Controls and Procedures) across consecutive Form 10-Ks, then compares those changes between peers in six sectors, including Walmart and Costco. Every finding on the company and peer pages quotes the filing sentence it came from and links to that filing. If a comparison is not supported, the report says so and does not fill the gap.</p>
+<div class="card-links"><a href="https://neifertg.github.io/10k-drift-detector/">Live demo →</a><a href="https://github.com/neifertg/10k-drift-detector">Code →</a></div>
+</article>
+
 <article class="card">
 <div class="card-media"><img src="https://raw.githubusercontent.com/neifertg/risk-analytics-portfolio/main/assets/audit-engagement-co-pilot-architecture.svg" alt="A question goes to a Sonnet supervisor, which dispatches to three scoped Haiku sub-agents (sampling, fraud-risk, standards), each calling only its own tools on a shared MCP server; the supervisor reconciles their answers into one cited response." loading="lazy"></div>
 <p class="card-label is-flagship">Flagship · Multi-agent AI</p>
@@ -87,7 +93,7 @@ description: "Data scientist delivering insights and efficiencies for internal a
 <div class="container about-grid">
 <div class="about-text" id="what-i-do">
 <h2>About</h2>
-<p>9 years delivering insights and efficiencies across internal audit, enterprise risk, and compliance. I leverage data science, machine learning, and analytics to provide both department and enterprise-wide insights and efficiencies.</p>
+<p>I work across risk, controls, and compliance, and I look for faster, more complete ways to test controls and surface risk. At Fannie Mae I automated IT controls testing, saving an estimated 930 hours a year, and cut audit analytics time by 80% while tripling test coverage. I use IIA-aligned standards to govern AI responsibly, and I leave the judgment with people. CIA. MS Business Analytics (Utah). BS Statistics (BYU). Fluent Spanish.</p>
 <p id="beyond-work">Most weekends I'm on a family hike somewhere in Virginia or West Virginia, hiking or fishing, or I'm out for a run. I read a lot: <em>East of Eden</em>, <em>Radical Candor</em>, <em>Dare to Lead</em>, and <em>Never Split the Difference</em> are some of my favorites this year. I'm also a Civil War history buff, and love exploring northern Virginia.</p>
 </div>
 </div>
@@ -110,9 +116,8 @@ description: "Data scientist delivering insights and efficiencies for internal a
 <div class="timeline-header"><span class="timeline-role">Senior Risk Analyst &amp; Data Scientist</span><span class="timeline-meta">Fannie Mae · Feb 2022 – Present</span></div>
 
 - Applied machine learning to Splunk-based event-log analysis across hundreds of millions of records to surface hidden behavioral and operational patterns for IT and Operations audits — findings drove substantial control redesign and enhancement recommendations.
-- Automated 13 access, change-management, and incident-management controls, replacing manual sampling with full-population testing — ~930 hours/year saved.
-- Built and rolled out an AI governance framework and a suite of GenAI coding agents with role-scoped guardrails aligned to IIA standards, enabling non-technical department staff to independently perform AI-assisted analytics with standardized documentation of results — cut analytics turnaround time 80%, expanded test coverage 3x.
-- Currently architecting an internal department wiki extending that governance framework into a shared, trusted methodology base — scaling AI-assisted workflows with the same guardrails across the team.
+- Saved an estimated 930 hours a year by automating IT controls testing across the full population instead of samples.
+- Cut audit analytics time by 80% and tripled test coverage, and wrote AI governance standards aligned with IIA guidelines.
 </div>
 <div class="timeline-entry" markdown="1">
 <div class="timeline-header"><span class="timeline-role">Senior Internal Auditor – Data Analytics Lead</span><span class="timeline-meta">HealthEquity · Feb 2018 – Feb 2022</span></div>
