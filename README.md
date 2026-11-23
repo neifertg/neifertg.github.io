@@ -9,7 +9,7 @@ Internal audit & risk analytics professional — automation, AI tooling, and rea
 - **What I Do** — positioning and background
 - **Featured Work** — the [Risk & Audit Analytics Portfolio](https://github.com/neifertg/risk-analytics-portfolio) (two flagship AI projects and six working audit-analytics tools), the [ML Field Guide](https://neifertg.github.io/ml-field-guide/), and [capitan](https://github.com/neifertg/capitan), a plan-first harness that keeps AI coding agents on course
 - **Beyond Work** — life outside work, plus active side projects
-- **Background & Résumé** — full experience (including Fannie Mae impact bullets), education, certifications, skills
+- **Background & Resume** — full experience (including Fannie Mae impact bullets), education, certifications, skills
 
 ## Contact
 
